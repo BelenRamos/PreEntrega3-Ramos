@@ -22,6 +22,17 @@
   margin-bottom: 40px;
 }
 
+.nav-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-link.active {
+  background-color: #52f0cc;
+  border-radius: 10%;
+  background-size: 30px;
+  font-weight: bold;
+}
+
 .section-divider {
   margin: 40px 0;
   border: 1px solid #ef4cec;
