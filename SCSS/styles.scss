@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Archivo", sans-serif;
+    src: url("../Fonts/Archivo-VariableFont_wdth\,wght.ttf");
+  }
+  
+  @font-face {
+    font-family: "Monserrat", sans-serif;
+    src: url("../Fonts/Montserrat-VariableFont_wght.ttf");
+  }
+  
+  .seccionSocial{
+    background-color: #c4a573;
+    margin-top: 50px;
+  
+      h1{
+          color: #000;
+      }
+  
+      p{
+          color: #252424;
+        }
+  }
+  
+  .seccionHeader{
+    background-color: #45caac;
+    margin-bottom: 40px;
+  }
+  
+  .section-divider {
+    margin: 40px 0;
+    border: 1px solid #ef4cec; 
+  }
+  
+  .text-justify {
+    text-align: justify !important;
+  }
+  
+  footer p{
+  color: #c5633c;
+  }
+  
+  /* Pagina Contactanos */
+  
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .seccionContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-bottom: 60px;
+  }
+  
+  article {
+  background-color: #d1c7e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  }
+  
+  h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .form-group {
+  margin-bottom: 15px;
+  }
+  
+  label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  .form-buttons {
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  input[type="submit"] {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+  background-color: #a94e66;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 768px)  {
+  article {
+    padding: 15px;
+  }
+  
+  }
+  
+  
+  /* pagina Planetas */
+  .tituloSeccion {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    max-width: 900px; 
+    margin: 20px auto;
+
+    img {
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        }
+  }
+  
+
+  
+  /* Pagina nasa */
+  
+  .destacado {
+  background-color: #eebcef;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  }
+  
+.noticias {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+   article {
+    background-color: #92ded2;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+  
+  .article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+  .article {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .video-iframe {
+    max-width: 100%; 
+  }
+  }
