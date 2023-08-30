@@ -26,6 +26,8 @@
     margin-bottom: 40px;
   }
 
+
+
 .nav-link {
   text-decoration: none;
   transition: color 0.3s ease;
@@ -37,7 +39,8 @@
     background-size: 30px;
     font-weight: bold;
   }
-} 
+}  
+
 
 
   .section-divider {
@@ -130,21 +133,31 @@
   
   
   /* pagina Planetas */
-  .tituloSeccion {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 20px;
+
+  .SeccionGrilla{
+    
+    h1{
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+    p{
+      text-align: center;
+      
+    }
   }
+  
   
 .grilla {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 33.33%);
     grid-gap: 5px;
-    max-width: 900px; 
-    margin: 20px auto;
+    max-width: 500px; 
+    margin: auto;
 
     img {
-        width: 90%;
+        width: 100%;
         height: auto;
         object-fit: cover;
         }
@@ -175,6 +188,10 @@
     max-width: 100%;
     height: auto;
   }
+}
+
+.foto-link{
+  transition: all 2s ;
 }
   
   .article {

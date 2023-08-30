@@ -10,9 +10,11 @@
   background-color: #c4a573;
   margin-top: 50px;
 }
+
 .seccionSocial h1 {
   color: #000;
 }
+
 .seccionSocial p {
   color: #252424;
 }
@@ -26,6 +28,7 @@
   text-decoration: none;
   transition: color 0.3s ease;
 }
+
 .nav-link.active {
   background-color: #52f0cc;
   border-radius: 10%;
@@ -119,24 +122,22 @@ input[type=submit]:hover {
   }
 }
 /* pagina Planetas */
-.SeccionGrilla h1 {
+.tituloSeccion {
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
 }
-.SeccionGrilla p {
-  text-align: center;
-}
 
 .grilla {
   display: grid;
-  grid-template-columns: repeat(3, 33.33%);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
-  max-width: 500px;
-  margin: auto;
+  max-width: 900px;
+  margin: 20px auto;
 }
+
 .grilla img {
-  width: 100%;
+  width: 90%;
   height: auto;
   object-fit: cover;
 }
@@ -155,9 +156,11 @@ input[type=submit]:hover {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .noticias article {
   background-color: #92ded2;
 }
+
 .noticias img {
   max-width: 100%;
   height: auto;
@@ -182,5 +185,6 @@ input[type=submit]:hover {
     max-width: 100%;
   }
 }
+
 
 /*# sourceMappingURL=styles.css.map */
