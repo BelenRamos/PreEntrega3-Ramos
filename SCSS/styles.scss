@@ -162,6 +162,41 @@
         object-fit: cover;
         }
   }
+
+/*   @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  h2 {
+    font-size: 24px;
+    animation: bounce 1s infinite;
+  } */
+
+  @keyframes colorChange {
+    0% {
+      color: rgb(245, 113, 148);
+    }
+    50% {
+      color: rgb(0, 89, 178);
+    }
+    100% {
+      color: rgb(87, 28, 86);
+    }
+  }
+  
+
+  .seccionInfoPlanetas
+    h2 {
+      font-size: 24px;
+      animation: colorChange 3s infinite;
+  }
+  
+  
   
 
   
