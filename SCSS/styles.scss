@@ -1,3 +1,5 @@
+@import 'reset';
+
 @font-face {
     font-family: "Archivo", sans-serif;
     src: url("../Fonts/Archivo-VariableFont_wdth\,wght.ttf");
@@ -13,12 +15,12 @@ $color-background : rgb(69, 202, 172);
 $color-resaltado: rgb(82, 240, 204);
 $color-footer: rgb(197, 99, 60);
 
-  .seccionSocial{
-    background-color: #c4a573;
-    margin-top: 50px;
+.seccionSocial{
+  background-color: #c4a573;
+  margin-top: 50px;
   
       h1{
-          $color-negro;
+          color: $color-negro;
       }
   
       p{
@@ -30,12 +32,8 @@ $color-footer: rgb(197, 99, 60);
     background-color: $color-background ;
     margin-bottom: 40px;
   }
-
-
-
-
-
-.nav-link {
+  
+  .nav-link {
   text-decoration: none;
   transition: color 0.3s ease;
 
@@ -169,6 +167,26 @@ $color-footer: rgb(197, 99, 60);
         object-fit: cover;
         }
   }
+
+.videoBackground {
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  video{
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+ } 
+
+#backgroundVideo {
+  display: block;
+}
+
+#backgroundVideo::-webkit-media-controls {
+  display:none !important;
+}
+
 
 /*   @keyframes bounce {
     0%, 100% {
