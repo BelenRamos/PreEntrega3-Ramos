@@ -3,17 +3,22 @@
     src: url("../Fonts/Archivo-VariableFont_wdth\,wght.ttf");
   }
   
-  @font-face {
+@font-face {
     font-family: "Monserrat", sans-serif;
     src: url("../Fonts/Montserrat-VariableFont_wght.ttf");
   }
   
+$color-negro: #000;
+$color-background : rgb(69, 202, 172);
+$color-resaltado: rgb(82, 240, 204);
+$color-footer: rgb(197, 99, 60);
+
   .seccionSocial{
     background-color: #c4a573;
     margin-top: 50px;
   
       h1{
-          color: #000;
+          $color-negro;
       }
   
       p{
@@ -22,7 +27,7 @@
   }
   
 .seccionHeader{
-    background-color: #45caac;
+    background-color: $color-background ;
     margin-bottom: 40px;
   }
 
@@ -36,7 +41,7 @@
 
   &.active {
     
-    background-color: #52f0cc;
+    background-color:$color-resaltado;
     border-radius: 10%;
     background-size: 30px;
     font-weight: bold;
@@ -55,7 +60,7 @@
   }
   
   footer p{
-  color: #c5633c;
+  color: $color-footer;
   }
   
   /* Pagina Contactanos */
@@ -197,8 +202,6 @@
       font-size: 24px;
       animation: colorChange 3s infinite;
   }
-  
-  
   
 
   

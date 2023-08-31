@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera Página</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
@@ -85,27 +86,31 @@
     <hr class="section-divider">
 
     <section class="seccionUltima py-5">
-    <div class="container text-justify">
-        <div class="row">
-            <div class="col-md-4">
-                <h1>Limite de la Tierra</h1>
-                <p>Los expertos han sugerido que el límite real entre la Tierra y el espacio se encuentra desde apenas 30 km 
-                sobre la superficie hasta más de 1,6 millones de km de distancia. Sin embargo, la mayoría ha aceptado delimitarlo en nuestra definición actual de la línea de Kármán que se basa en la realidad física, 
-                en el sentido de que marca aproximadamente la altitud a la que los aviones tradicionales ya no pueden volar con eficacia.</p>
-            </div>
-            <div class="col-md-4">
-                <p> Cualquier cosa que viaje por encima de este límite necesita un sistema de propulsión que no dependa de la sustentación generada por la atmósfera de la Tierra. 
-                En otras palabras, la línea Kármán es donde cambian las leyes físicas que rigen la capacidad para volar de una nave. “Este es ciertamente un límite físico, donde termina la aerodinámica y comienza la astronáutica, 
-                así que pensé, ¿por qué no debería ser también un límite jurisdiccional?... Debajo de esta línea, el espacio pertenece a cada país.
-                Por encima de este nivel, habría espacio libre”, escribió en su autobiografía el propio von Kármán</p>
-            </div>
-            <div class="col-md-4">
-                <div class="fotoTierra">
-                    <img src="Imagenes/atmosphere.jpg" alt="El espacio" width="450px" height="300px">
+        <div class="container text-justify">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Limite de la Tierra</h1>
+                    <p>Los expertos han sugerido que el límite real entre la Tierra y el espacio se encuentra desde apenas 30 km 
+                    sobre la superficie hasta más de 1,6 millones de km de distancia. Sin embargo, la mayoría ha aceptado delimitarlo en nuestra definición actual de la línea de Kármán que se basa en la realidad física, 
+                    en el sentido de que marca aproximadamente la altitud a la que los aviones tradicionales ya no pueden volar con eficacia.</p>
                 </div>
+                <div class="col-md-4">
+                    <p> Cualquier cosa que viaje por encima de este límite necesita un sistema de propulsión que no dependa de la sustentación generada por la atmósfera de la Tierra. 
+                    En otras palabras, la línea Kármán es donde cambian las leyes físicas que rigen la capacidad para volar de una nave. “Este es ciertamente un límite físico, donde termina la aerodinámica y comienza la astronáutica, 
+                    así que pensé, ¿por qué no debería ser también un límite jurisdiccional?... Debajo de esta línea, el espacio pertenece a cada país.
+                    Por encima de este nivel, habría espacio libre”, escribió en su autobiografía el propio von Kármán</p>
+                </div>
+            
+                <div class="col-md-4" >
+                    <div class="fotoTierra">
+                        <div data-aos="zoom-in-up">
+                            <img src="Imagenes/atmosphere.jpg" alt="El espacio" width="450px" height="300px">
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-    </div>
     </section>
 
     <section class="seccionSocial">
@@ -144,6 +149,11 @@
     </footer>
 
     <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      
 </body>
 </html>
 
