@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
@@ -43,33 +44,67 @@
         <h1>Los Planetas en Nuestro Vecindario Espacial: Una Introducción al Sistema Solar</h1>
         <p>Los planetas rocosos: Mercurio, Venus, La Tierra y Marte; y los gigantes gaseosos: 
             Júpiter, Saturno, Urano y Neptuno, son los 8 mundos que componen el sistema solar. </p>
-        <div class="grilla">
-                <img src="../Imagenes/mercury.jpeg" alt="Mercurio">
-                <img src="../Imagenes/venus.jpeg" alt="Venus">
-                <img src="../Imagenes/Earth.jpg" alt="Tierra">
-                <img src="../Imagenes/mars.jpeg" alt="Marte">
-                <img src="../Imagenes/jupiter.jpeg" alt="Jupiter">
-                <img src="../Imagenes/saturn.jpg" alt="Saturno">
-                <img src="../Imagenes/uranus.jpeg" alt="Urano">
-                <img src="../Imagenes/neptune.jpeg" alt="Neptuno">
-                <img src="../Imagenes/pluto.jpeg" alt="Pluton">
-        </div>
     </section>
 
     <section class="videoBackground">
         <video id="backgroundVideo" src="../Imagenes/planets_video.mp4" autoplay="true" loop="true"></video>
     </section>
 
+    <section class="introPlanetas">
+        <p>
+            El Sistema Solar se formó hace unos 4670 millones de años a partir de una nube de gas y de polvo que formó la 
+            estrella central y un disco circunstelar. La estructura actual de nuestro sistema solar con los planetas rocosos 
+            interiores como la Tierra o Marte y la formación de planetas gigantes exteriores como Júpiter o Saturno nos habla 
+            de los procesos físicos que tuvieron lugar en aquella época y que esculpieron nuestro sistema planetario. 
+            Paralelamente los astrofísicos están obteniendo un número creciente de observaciones de discos semejantes alrededor
+            de estrellas muy jóvenes que permiten estudiar en directo la formación  de planetas en esas estrellas. 
+            En nuestro Sistema Solar los planetas exteriores (los gigantes gaseosos Júpiter y Saturno y los gigantes
+            helados Urano y Neptuno) se formaron rápidamente debido a la abundancia de materiales ligeros adquiriendo 
+            suficiente masa para atraer el gas hidrógeno de la nebuloso protosolar y dominar gravitacionalmente su entorno. 
+            Los planetas interiores tardaron mucho más tiempo en formarse debido a la menor cantidad de material condensable 
+            en las condiciones de temperatura del Sistema Solar interior estimándose una escala de tiempo de unos 50-100 
+            millones de años para completar la formación del Sistema Solar interior. La formación del sistema solar interior 
+            estuvo dominada por violentas colisiones entre miles de protoplanetas y billones de planetesimales mucho más 
+            pequeños.
+        </p>
+    </section>
+
     <section class="seccionInfoPlanetas">
         <h2> Los Ocho Integrantes del Sistema Solar</h2>
-        <p>Los cuatro primeros, Mercurio, Venus, La Tierra y Marte, tienen algo en común: </p>
-        <p>todos se sitúan en las órbitas más cercanas al Sol, cuentan con un núcleo metálico en su interior y están conformados por materiales sólidos, por lo que reciben el nombre de planetas rocosos o planetas interiores.</p>
-        <p>Por su parte las órbitas de Júpiter, Saturno, Urano y Neptuno se sitúan mucho más lejos del Sol,</p>
-        <p>en la parte exterior del sistema solar, y están conformados en su mayoría por gas, por lo que son conocidos como planetas exteriores o planetas jovianos.</p>
+        <p>Los cuatro primeros, Mercurio, Venus, La Tierra y Marte, tienen algo en común: todos se sitúan en las órbitas más cercanas al Sol, cuentan con un núcleo metálico en su interior y están conformados por materiales sólidos, por lo que reciben el nombre de planetas rocosos o planetas interiores.</p>
+        <p>Por su parte las órbitas de Júpiter, Saturno, Urano y Neptuno se sitúan mucho más lejos del Sol, en la parte exterior del sistema solar, y están conformados en su mayoría por gas, por lo que son conocidos como planetas exteriores o planetas jovianos.</p>
+        <div class="grilla">
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/mercury.jpeg" alt="Mercurio">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/venus.jpeg" alt="Venus">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/Earth.jpg" alt="Tierra">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/mars.jpeg" alt="Marte">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/jupiter.jpeg" alt="Jupiter">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/saturn.jpg" alt="Saturno">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/uranus.jpeg" alt="Urano">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/neptune.jpeg" alt="Neptuno">
+            </div>
+            <div data-aos="zoom-in">
+                <img src="../Imagenes/pluto.jpeg" alt="Pluton">
+            </div>
+        </div>
     </section>
+
     
-
-
     <section class="seccionSocial">
         <div class="conactoBar text-center py-3">
           <div class="container">
@@ -106,6 +141,10 @@
     </footer>
 
     <script src="../js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
