@@ -60,6 +60,10 @@ table {
   font-family: "Monserrat", sans-serif;
   src: url("../Fonts/Montserrat-VariableFont_wght.ttf");
 }
+.bodyPlanetas {
+  background-image: linear-gradient(to bottom, #000, rgb(37, 36, 93));
+}
+
 .seccionSocial {
   background-color: #c4a573;
   margin-top: 50px;
@@ -68,6 +72,17 @@ table {
   color: #000;
 }
 .seccionSocial p {
+  color: #252424;
+}
+
+.seccionSocialPlanetas {
+  background-color: #a64b93;
+  margin-top: 10px;
+}
+.seccionSocialPlanetas h1 {
+  color: #000;
+}
+.seccionSocialPlanetas p {
   color: #252424;
 }
 
@@ -190,19 +205,22 @@ input[type=submit]:hover {
 }
 
 .introPlanetas {
-  margin: 150px;
+  background-color: whitesmoke;
+  padding: 50px;
 }
 .introPlanetas p {
+  margin: 150px;
   text-align: justify;
 }
 
-.SeccionGrilla h1 {
+.seccionInfoPlanetas h2 {
+  color: rgb(166, 75, 147);
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
 }
-.SeccionGrilla p {
-  text-align: center;
+.seccionInfoPlanetas p {
+  color: rgb(242, 109, 214);
 }
 
 .grilla {
@@ -242,12 +260,15 @@ input[type=submit]:hover {
     color: rgb(87, 28, 86);
   }
 }
-.SeccionGrilla {
+.tituloPlanetas {
   margin: 50px;
 }
-.SeccionGrilla h1 {
+.tituloPlanetas h1 {
   font-size: 24px;
   animation: colorChange 3s infinite;
+}
+.tituloPlanetas p {
+  color: rgb(190, 170, 255);
 }
 
 .seccionInfoPlanetas {
@@ -255,6 +276,15 @@ input[type=submit]:hover {
 }
 .seccionInfoPlanetas p {
   text-align: justify;
+}
+
+.seecionUltimaPlanetas {
+  background-color: whitesmoke;
+  padding: 50px;
+}
+.seecionUltimaPlanetas p {
+  text-align: justify;
+  margin: 40px;
 }
 
 /* Pagina nasa */

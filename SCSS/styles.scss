@@ -10,10 +10,15 @@
     src: url("../Fonts/Montserrat-VariableFont_wght.ttf");
   }
   
+
 $color-negro: #000;
 $color-background : rgb(69, 202, 172);
 $color-resaltado: rgb(82, 240, 204);
 $color-footer: rgb(197, 99, 60);
+
+.bodyPlanetas {
+  background-image: linear-gradient(to bottom, $color-negro, rgb(37, 36, 93));
+}
 
 .seccionSocial{
   background-color: #c4a573;
@@ -27,6 +32,19 @@ $color-footer: rgb(197, 99, 60);
           color: #252424;
         }
   }
+
+.seccionSocialPlanetas{
+  background-color: #a64b93;
+  margin-top: 10px;
+  
+      h1{
+          color: $color-negro;
+      }
+  
+      p{
+          color: #252424;
+        }
+}
   
 .seccionHeader{
     background-color: $color-background ;
@@ -139,6 +157,8 @@ $color-footer: rgb(197, 99, 60);
   
   /* pagina Planetas */
 
+
+
   .videoBackground {
     margin-top: 80px;
     
@@ -158,24 +178,28 @@ $color-footer: rgb(197, 99, 60);
   }
 
 .introPlanetas{
-  margin: 150px;
+  background-color: whitesmoke;
+  padding: 50px;
 
   p{
+    margin: 150px;
     text-align: justify;
   }
 
 }
 
-.SeccionGrilla{
+.seccionInfoPlanetas{
     
-    h1{
+    h2{
+        color: rgb(166, 75, 147);
         text-align: center;
         font-size: 28px;
         margin-bottom: 20px;
+
       }
 
     p{
-      text-align: center;
+      color: rgb(242, 109, 214);
       
     }
   }
@@ -222,12 +246,16 @@ $color-footer: rgb(197, 99, 60);
   }
   
 
-.SeccionGrilla {
+.tituloPlanetas {
     margin: 50px;
 
     h1 {
       font-size: 24px;
       animation: colorChange 3s infinite;
+    }
+    
+    p{
+      color:rgb(190, 170, 255);
     }
 }
 
@@ -236,6 +264,16 @@ $color-footer: rgb(197, 99, 60);
 
   p{
     text-align: justify;
+  }
+}
+
+.seecionUltimaPlanetas{
+  background-color: whitesmoke;
+  padding: 50px;
+
+  p{
+    text-align: justify;
+    margin: 40px;
   }
 }
   
