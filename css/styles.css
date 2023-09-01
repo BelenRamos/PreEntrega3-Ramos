@@ -76,14 +76,13 @@ table {
 }
 
 .seccionSocialPlanetas {
-  background-color: #a64b93;
   margin-top: 10px;
 }
 .seccionSocialPlanetas h1 {
-  color: #000;
+  color: rgb(197, 99, 60);
 }
 .seccionSocialPlanetas p {
-  color: #252424;
+  color: rgb(197, 99, 60);
 }
 
 .seccionHeader {
@@ -214,13 +213,13 @@ input[type=submit]:hover {
 }
 
 .seccionInfoPlanetas h2 {
-  color: rgb(166, 75, 147);
+  color: rgb(197, 99, 60);
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
 }
 .seccionInfoPlanetas p {
-  color: rgb(242, 109, 214);
+  color: rgb(197, 99, 60);
 }
 
 .grilla {
@@ -254,7 +253,7 @@ input[type=submit]:hover {
     color: rgb(245, 113, 148);
   }
   50% {
-    color: rgb(0, 89, 178);
+    color: rgb(19, 60, 101);
   }
   100% {
     color: rgb(87, 28, 86);
@@ -268,7 +267,7 @@ input[type=submit]:hover {
   animation: colorChange 3s infinite;
 }
 .tituloPlanetas p {
-  color: rgb(190, 170, 255);
+  color: rgb(197, 99, 60);
 }
 
 .seccionInfoPlanetas {

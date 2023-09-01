@@ -34,15 +34,15 @@ $color-footer: rgb(197, 99, 60);
   }
 
 .seccionSocialPlanetas{
-  background-color: #a64b93;
+  
   margin-top: 10px;
   
       h1{
-          color: $color-negro;
+          color: $color-footer;
       }
   
       p{
-          color: #252424;
+          color: $color-footer;
         }
 }
   
@@ -64,9 +64,7 @@ $color-footer: rgb(197, 99, 60);
   }
 }  
 
-
-
-  .section-divider {
+.section-divider {
     margin: 40px 0;
     border: 1px solid #ef4cec; 
   }
@@ -157,9 +155,7 @@ $color-footer: rgb(197, 99, 60);
   
   /* pagina Planetas */
 
-
-
-  .videoBackground {
+.videoBackground {
     margin-top: 80px;
     
     video{
@@ -191,7 +187,7 @@ $color-footer: rgb(197, 99, 60);
 .seccionInfoPlanetas{
     
     h2{
-        color: rgb(166, 75, 147);
+        color: $color-footer;
         text-align: center;
         font-size: 28px;
         margin-bottom: 20px;
@@ -199,7 +195,7 @@ $color-footer: rgb(197, 99, 60);
       }
 
     p{
-      color: rgb(242, 109, 214);
+      color: $color-footer;
       
     }
   }
@@ -238,7 +234,7 @@ $color-footer: rgb(197, 99, 60);
       color: rgb(245, 113, 148);
     }
     50% {
-      color: rgb(0, 89, 178);
+      color: rgb(19, 60, 101);
     }
     100% {
       color: rgb(87, 28, 86);
@@ -255,7 +251,7 @@ $color-footer: rgb(197, 99, 60);
     }
     
     p{
-      color:rgb(190, 170, 255);
+      color:$color-footer;
     }
 }
 

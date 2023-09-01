@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
@@ -40,7 +41,7 @@
     </nav>
   </header>
 
-  <section class="destacado">
+  <section class="destacado" data-aos="fade-right" data-aos-duration="1500">
     <h2>La tripulación estudia las ciencias de la vida para mejorar la salud en la Tierra y en el espacio</h2>
     <p>La ciencia de la vida en beneficio de los seres humanos en la Tierra y en el espacio fue la máxima prioridad de investigación a bordo de la Estación Espacial Internacional el lunes. 
       La tripulación del Expedition 69 también trabajó en tareas de limpieza y tareas de carga para iniciar la semana laboral.</p>
@@ -48,36 +49,44 @@
   </section>
   <section class="noticias">
       <article>
+        <div data-aos="zoom-in" data-aos-duration="3000">
           <img src="../Imagenes/iceGigants.png" alt="Imagen de noticia 1">
           <h3>All Eyes on the Ice Giants</h3>
           <p>NASA’s New Horizons Team Calls for the Amateur Astronomical Community to Augment the Mission’s Observations of Uranus and Neptune.</p>
           <a href="https://www.nasa.gov/feature/all-eyes-on-the-ice-giants" target="_blank">Visite aquí</a>
+        </div>
         </article>
       <article>
+        <div data-aos="zoom-in" data-aos-duration="3000">
           <img src="../Imagenes/nasa-study-climate-risks.png" alt="Imagen de noticia 2">
           <h3>Nuevo telescopio espacial</h3>
           <p>La NASA lanzará próximamente un telescopio espacial de última generación para explorar los confines del universo.</p>
           <a href="https://www.nasa.gov/feature/ames/nasa-study-reveals-compounding-climate-risks-at-two-degrees-of-warming" target="_blank">Visite aquí</a>
-      </article>
+        </div>
+        </article>
       <article>
+        <div data-aos="zoom-in" data-aos-duration="3000">
         <img src="../Imagenes/blue origin nasa luna.webp" alt="Imagen de noticia 3">
         <h3>Imagenes del dia</h3>
         <a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html" target="_blank">Visite aquí</a>
+    </div>
       </article>
       <article>
+        <div data-aos="zoom-in" data-aos-duration="3000">
         <iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/iwDRkQMOrU0" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen></iframe>
         <h3>Chasing Sprites in Electric Skies</h3>
         <a href="https://www.nasa.gov/multimedia/videogallery/index.html" target="_blank">Visite aquí</a>
+        </div>
       </article>
       
   </section>
 
   <div class="container mt-5">
     <section class="seccionLogo row align-items-center">
-        <div class="col-md-3 text-center order-md-2">
+        <div class="col-md-3 text-center order-md-2" data-aos="flip-left" data-aos-duration="1000">
             <a href="https://nasa.gov"> <img class="foto-link" src="../Imagenes/NASA_logo.svg.png" alt="LogoNASA" width="150px"> </a>
         </div>
         <div class="col-md-5 order-md-1">
@@ -121,6 +130,10 @@
       </div>
   </footer>
 
-  <script src="../js/bootstrap.js"></script>     
+  <script src="../js/bootstrap.js"></script>    
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script> 
 </body>
 </html>
