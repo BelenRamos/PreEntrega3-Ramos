@@ -14,12 +14,20 @@
     font-family: 'Ysabeau', sans-serif;
     src: url("../Fonts/YsabeauSC-Regular.ttf");
   }
+
+@mixin borde-redondeado($radio) {
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+  }
   
 
 $color-negro: #000;
 $color-background : rgb(69, 202, 172);
 $color-resaltado: rgb(82, 240, 204);
 $color-footer: rgb(197, 99, 60);
+
+
 
 //Animaciones
 
@@ -78,9 +86,7 @@ $color-footer: rgb(197, 99, 60);
   }
 
 .seccionSocialPlanetas{
-  
   margin-top: 10px;
-  
       h1{
           color: $color-footer;
       }
@@ -102,7 +108,7 @@ $color-footer: rgb(197, 99, 60);
   &.active {
     
     background-color:$color-resaltado;
-    border-radius: 10%;
+    @include borde-redondeado(4px);
     background-size: 30px;
     font-weight: bold;
   }
@@ -144,7 +150,7 @@ $color-footer: rgb(197, 99, 60);
   
   article {
   background-color: #d1c7e6;
-  border-radius: 8px;
+  @include borde-redondeado(8px);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -172,7 +178,7 @@ $color-footer: rgb(197, 99, 60);
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  @include borde-redondeado(4px)
   }
   
   .form-buttons {
@@ -185,7 +191,7 @@ $color-footer: rgb(197, 99, 60);
   color: #ffffff;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  @include borde-redondeado(4px);
   cursor: pointer;
   transition: background-color 0.3s ease;
   }
@@ -289,17 +295,14 @@ $color-footer: rgb(197, 99, 60);
     margin: 40px;
   }
 }
-
-  
-
   
   /* Pagina nasa */
   
-  .destacado {
+.destacado {
   background-color: #eebcef;
   margin: 30px;
   padding: 20px;
-  border-radius: 5px;
+  @include borde-redondeado(4px);
   }
   
 .noticias {
@@ -322,7 +325,7 @@ $color-footer: rgb(197, 99, 60);
   transition: all 2s ;
 }
   
-  .article {
+.article {
   display: flex;
   align-items: center;
   justify-content: space-between;
