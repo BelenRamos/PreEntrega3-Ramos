@@ -181,11 +181,6 @@ input[type=submit]:hover {
   background-color: #a94e66;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  article {
-    padding: 15px;
-  }
-}
 /* pagina Planetas */
 .videoBackground {
   margin-top: 80px;
@@ -208,7 +203,7 @@ input[type=submit]:hover {
   padding: 50px;
 }
 .introPlanetas p {
-  margin: 150px;
+  margin: 100px;
   text-align: justify;
 }
 
@@ -277,11 +272,11 @@ input[type=submit]:hover {
   text-align: justify;
 }
 
-.seecionUltimaPlanetas {
+.seccionUltimaPlanetas {
   background-color: whitesmoke;
   padding: 50px;
 }
-.seecionUltimaPlanetas p {
+.seccionUltimaPlanetas p {
   text-align: justify;
   margin: 40px;
 }
@@ -325,6 +320,17 @@ input[type=submit]:hover {
   }
   .video-iframe {
     max-width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  article {
+    padding: 15px;
+  }
+  .introPlanetas, .seccionUltimaPlanetas {
+    padding: 10px;
+  }
+  .introPlanetas p, .seccionUltimaPlanetas p {
+    margin: 3px;
   }
 }
 
