@@ -1,13 +1,18 @@
 @import 'reset';
 
 @font-face {
-    font-family: "Archivo", sans-serif;
+    font-family: 'Archivo', sans-serif;
     src: url("../Fonts/Archivo-VariableFont_wdth\,wght.ttf");
   }
   
 @font-face {
-    font-family: "Monserrat", sans-serif;
+    font-family: 'Monserrat', sans-serif;
     src: url("../Fonts/Montserrat-VariableFont_wght.ttf");
+  }
+
+@font-face {
+    font-family: 'Ysabeau', sans-serif;
+    src: url("../Fonts/YsabeauSC-Regular.ttf");
   }
   
 
@@ -116,7 +121,8 @@ $color-footer: rgb(197, 99, 60);
   p{
       text-align: center;
       animation: colorChange 3s infinite;
-      font-family: ;
+      font-family: 'Ysabeau SC', sans-serif;
+      font-weight: bold;
     }
   }
   
